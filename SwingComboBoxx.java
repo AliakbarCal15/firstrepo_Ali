@@ -5,6 +5,7 @@ public class SwingComboBoxx extends JFrame
 {
 	public SwingComboBoxx()
 	{
+	System.out.println("Hello");
 	String names[]= {"Baburao","Raju","Shyam","Pushpa"};
 	
 	JComboBox cb = new JComboBox(names);
